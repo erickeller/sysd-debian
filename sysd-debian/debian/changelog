@@ -1,0 +1,6 @@
+sysd-debian (0.0.1~alpha1) jessie; urgency=medium
+
+  * Initial commit 
+
+ -- Eric Keller <keller.eric@gmail.com>  Sun, 17 Jul 2016 10:01:54 +0200
+

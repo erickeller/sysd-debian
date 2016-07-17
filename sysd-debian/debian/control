@@ -1,0 +1,13 @@
+Source: sysd-debian
+Section: misc
+Priority: optional
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), dh-systemd (>= 1.5)
+Maintainer: Eric Keller <keller.eric@gmail.com>
+
+Package: sysd-debian
+Architecture: any
+Depends: ${misc:Depends}
+Suggests:
+Description: sysd-debian dummy package.
+ Dummy package installing two systemd service

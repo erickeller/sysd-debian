@@ -1,0 +1,15 @@
+[Unit]
+Description=Dummy systemd debian package backend
+After=network.target
+
+[Service]
+EnvironmentFile=-/etc/default/sysd-debian
+EnvironmentFile=-/etc/default/sysd-debian.d/*
+ExecStart=/bin/echo ${BACKEND_USER} ${BACKEND_GROUP}
+Type=simple
+KillSignal=SIGQUIT
+KillMode=process
+TimeoutStopSec=15s
+
+[Install]
+WantedBy=multi-user.target

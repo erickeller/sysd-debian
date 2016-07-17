@@ -1,0 +1,3 @@
+SYSD_DEBIAN_OPTIONS="-s /tmp/sysd-debian.sock"
+BACKEND_USER="sysd-debian"
+BACKEND_GROUP="sysd-test"
